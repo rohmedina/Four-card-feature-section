@@ -2,7 +2,7 @@
 
 ![rodrigo_medina](https://repository-images.githubusercontent.com/269505456/89392c80-a6ad-11ea-8b25-ced0a7a8448c)
 
-![Design preview for the Four card feature section coding challenge](https://rohmedina.github.io/Four-card-feature-section/)
+![Design preview for the Four card feature section coding challenge](https://rohmedina.github.io/Four-card-feature-section)
 
 ## Welcome! 👋
 
