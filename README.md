@@ -1,7 +1,7 @@
 # Frontend Mentor - Four card feature section
 
 ![rodrigo_medina](https://repository-images.githubusercontent.com/269505456/89392c80-a6ad-11ea-8b25-ced0a7a8448c)
-![Diseño del proyecto] https://rohmedina.github.io/Four-card-feature-section
+- Diseño del proyecto https://rohmedina.github.io/Four-card-feature-section
 
 
 ## Welcome! 👋
