@@ -1,0 +1,112 @@
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+
+  --DarkBlue: hsl(234, 12%, 34%);
+  --GrayishBlue: hsl(229, 6%, 66%);
+  --LightGray: hsl(0, 0%, 98%);
+  --white: #ffffff;
+  font-size: 15px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--LightGray);
+}
+header {
+  margin: 50px auto;
+  max-width: 375px;
+  text-align: center;
+}
+.wrapper {
+  margin: 10px;
+}
+h1 {
+  font-weight: 200;
+  margin: 0;
+  font-size: 27px;
+  color: var(--GrayishBlue);
+}
+h1 span {
+  font-weight: 600;
+  color: var(--DarkBlue);
+  font-size: 27px;
+}
+p {
+  color: var(--GrayishBlue);
+  font-weight: 200;
+  text-align: inherit;
+  font-size: 17px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.box {
+  background-color: var(--white);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 25px;
+  width: 350px;
+  cursor: pointer;
+}
+.box:hover {
+  transform: scale(1.05);
+}
+.box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+}
+.box-red::after {
+  background-color: var(--Red);
+}
+.box-cyan::after {
+  background-color: var(--Cyan);
+}
+.box-orange::after {
+  background-color: var(--Orange);
+}
+.box-blue::after {
+  background-color: var(--Blue);
+}
+
+.box-push {
+  transform: translateY(0);
+}
+.box h2 {
+  margin: 0;
+}
+.box p {
+  font-size: 14px;
+  margin: 15px 0 30px;
+}
+.box img {
+  display: block;
+  margin-left: auto;
+}
+footer {
+  text-align: center;
+}
+
+@media (min-width: 775px) {
+  .box {
+    margin: 15px;
+  }
+  .box-push {
+    transform: translateY(50%);
+  }
+}
